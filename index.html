@@ -5,13 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
   <style>
+    body{
+      text-align: center;
+    }
     .button {
       display: inline-block;
       text-decoration: none;
       text-align: center;
       color: white;
       font-family: 'Courier New', Courier, monospace;
-      border: solid;
       border: none;
       padding: 8px 16px;
       cursor: pointer;
@@ -19,12 +21,13 @@
       font-weight: bold;
       transition: opacity 0.30s,
         background-color 0.30s,
-        color 0.30s;
+        color 0.30s,
+        box-shadow 0.30s;
     }
 
     .button:hover{
       opacity: 0.7;
-      box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.426);
+      box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.426);
     }
 
     .GitHub-button {
@@ -34,7 +37,6 @@
     .GitHub-button:active{
       background-color: white;
       border-width: 1px;
-      border-color: #01040;
       color: #01040a;
       font-weight: bold;
     }
@@ -46,7 +48,6 @@
     .Linkedin-button:active{
       background-color: white;
       border-width: 1px;
-      border-color: #0a66c2;
       color: #0a66c2;
       font-weight: bold;
     }
