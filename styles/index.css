@@ -32,11 +32,11 @@ h1{
 }
 
 .GitHub-button {
-    background-color: #01040a;
+    background-color: white;
+    color: #01040a
   }
 
 .GitHub-button:active{
-    background-color: white;
     border-width: 1px;
     color: #01040a;
     font-weight: bold;
@@ -47,9 +47,8 @@ h1{
 }
 
 .Linkedin-button:active{
-    background-color: white;
     border-width: 1px;
-    color: #0a66c2;
+    color: white;
     font-weight: bold;
 }
 
