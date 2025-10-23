@@ -68,7 +68,13 @@
         line-height: 24px;
       }
 
+    .here{
+          color: white;
+          text-decoration: none;
+    }
+
     .here:hover{
+          color: white;
           text-decoration: underline;
           font-weight: bold;
           cursor: pointer;
