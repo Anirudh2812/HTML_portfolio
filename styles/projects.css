@@ -11,15 +11,19 @@ h1{
 .project-overview{
     Vertical-align: top;
     display: inline-block;
+    justify-content: center;
     margin-left: 30px;
     margin-right: 30px;
 }
 
-.project-logos{
-    width: 100px;
-    height: 85px;
-    justify-content: center;
+.project-logos {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+    display: block;
+    margin: 10px auto;
 }
+
 
 .project-title{ 
     margin: 20px;
