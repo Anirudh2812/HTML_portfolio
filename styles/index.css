@@ -2,10 +2,11 @@ body{
   background-color: #01040a;
 }
 
-h1{
+.page-heading{
     font-family: Roboto, Arial;
     text-align: center;
-    color: #db3632;
+    color: white;
+    background-color: #6d3b41;
     font-size: xx-large;
     margin-bottom: 50px;
 }

@@ -3,9 +3,16 @@ body{
     font-family: Robot, Arial; 
 }
 
-h1{
+.page-heading{
     text-align: center;
-    color: #db3632;
+    font-size: xx-large;
+    color: white;
+    background-color: #6d3b41;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
 }
 
 .project-overview{
@@ -27,7 +34,8 @@ h1{
 .project-title{ 
     margin: 20px;
     display: block;
-    color: #3fb851;
+    color: white;
+    background-color: #30573e;
 }
 
 .project-description{ 
