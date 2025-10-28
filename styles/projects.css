@@ -1,6 +1,7 @@
 body{
     background-color: #01040a;
-    font-family: Robot, Arial; 
+    font-family: Robot, Arial;
+    padding-bottom: 500px; 
 }
 
 .page-heading{
@@ -12,11 +13,12 @@ body{
 
 .grid{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
 }
 
 .project-overview{
-    Vertical-align: top;
     display: inline-block;
     justify-content: center;
     margin-left: 30px;
@@ -28,18 +30,15 @@ body{
     height: 90px;
     object-fit: contain;
     display: block;
-    margin: 10px auto;
 }
 
 .project-title{ 
-    margin: 20px;
     display: block;
     color: white;
     background-color: #30573e;
 }
 
 .project-description{ 
-    margin: 0;
     line-height: 25px;
     display: inline-block;
     color: white;
