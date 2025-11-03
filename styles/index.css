@@ -4,7 +4,7 @@ body{
 }
 
 .page-heading{
-    font-family: Roboto, Arial;
+    font-family: Balsamiq Sans, Arial;
     text-align: center;
     color: white;
     background-color: #6d3b41;
@@ -16,7 +16,7 @@ body{
 .p1{
     text-align: center;
     color: white;
-    font-family: Robot, Arial;
+    font-family: Balsamiq Sans, Arial;
     width: 1000px;
     text-align: center;
     margin: 0 auto;
@@ -30,7 +30,7 @@ body{
     text-decoration: none;
     text-align: center;
     color: white;
-    font-family: Robot, Arial;
+    font-family: Balsamiq Sans, Arial;
     border: none;
     margin-top: 8px;
     padding: 8px 16px;
@@ -81,7 +81,7 @@ body{
 .socials{
     text-align: center;
     color: beige;
-    font-family: Roboto, Arial;
+    font-family: Balsamiq Sans, Arial;
     font-size: 16px;
     font-weight: bold;
 }
